@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9f5d5c5-b274-4118-9b37-136200cdc2c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/credits.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/credits.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ReportIt.iws" />
@@ -47,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/credits.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.14610389">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -59,6 +58,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Wladislaw" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2288,6 +2292,13 @@
       <option name="number" value="Default" />
       <updated>1459176418438</updated>
     </task>
+    <task id="LOCAL-00001" summary="Testing android studio&#10;&#10;Nothing special&#10;">
+      <created>1459192022894</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459192022894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2328,6 +2339,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing android studio&#10;&#10;Nothing special&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing android studio&#10;&#10;Nothing special&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2374,7 +2389,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/credits.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14610389">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
