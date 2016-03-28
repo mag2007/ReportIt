@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/about_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView"
+            app:cardBackgroundColor="@color/cardColor"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation"
+            >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/app_name"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="5dp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/bversion"
+                android:drawableLeft="@drawable/ic_info_outline_red_500_24dp"
+                android:drawablePadding="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:textSize="18sp"
+                android:gravity="fill_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/license"
+                android:onClick="onClick4"
+                android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_copyright_red_500_24dp"
+                android:drawablePadding="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/blicenseApp"
+                android:textSize="18sp"
+                android:gravity="fill_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changelog"
+                android:onClick="onClick1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_history_red_500_24dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/bchangelog"
+                android:textSize="18sp"
+                android:gravity="fill_vertical"
+                android:drawablePadding="16dp"
+                android:clickable="false"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/licenses"
+                android:onClick="onClick2"
+                android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_copyright_red_500_24dp"
+                android:drawablePadding="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/blicenses"
+                android:textSize="18sp"
+                android:gravity="fill_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/credits"
+                android:onClick="onClick3"
+                android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="?android:attr/borderlessButtonStyle"
+                android:drawableLeft="@drawable/ic_local_grocery_store_red_500_24dp"
+                android:drawablePadding="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:id="@+id/bcredits"
+                android:textSize="18sp"
+                android:gravity="fill_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/background"
+            />
+
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            style="@style/CardView"
+            app:cardBackgroundColor="@color/cardColor"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/author"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/bnameMe"
+                    android:drawableLeft="@drawable/picture"
+                    android:drawablePadding="25sp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/bwebMe"
+                    android:text="@string/mywebsite"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/www"
+                    android:drawablePadding="25sp"
+                    android:gravity="fill_vertical"
+                    android:textSize="18sp"
+                    android:paddingLeft="20dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/bgoogleMe"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/googleplus"
+                    android:drawablePadding="25sp"
+                    android:gravity="fill_vertical"
+                    android:text="@string/mygoogleplus"
+                    android:textSize="18sp"
+                    android:paddingLeft="20dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/binstaMe"
+                    android:text="@string/myinsta"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/insta"
+                    android:drawablePadding="25sp"
+                    android:gravity="fill_vertical"
+                    android:textSize="18sp"
+                    android:paddingLeft="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/blinkedMe"
+                    android:text="@string/mylinked"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/linkedin"
+                    android:drawablePadding="25sp"
+                    android:gravity="fill_vertical"
+                    android:textSize="18sp"
+                    android:paddingLeft="20dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/background"
+            />
+
+        <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            style="@style/CardView"
+            app:cardBackgroundColor="@color/cardColor"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/Credits"
+                    android:text="@string/credits"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginTop="5dp" />
+
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/bnameRegi"
+                android:drawableLeft="@drawable/regiava"
+                android:drawablePadding="25sp"
+                style="?android:attr/borderlessButtonStyle"
+                android:gravity="fill_vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/binstaRegi"
+                    android:text="Her Instagram"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/insta"
+                    android:drawablePadding="25sp"
+                    android:gravity="fill_vertical"
+                    android:textSize="18sp"
+                    android:paddingLeft="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/bnameHolger"
+                    android:drawableLeft="@drawable/avaholger"
+                    android:drawablePadding="25sp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/bwebHolger"
+                    android:text="His Website"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/www"
+                    android:drawablePadding="25sp"
+                    android:gravity="fill_vertical"
+                    android:textSize="18sp"
+                    android:paddingLeft="20dp" />
+
+        </LinearLayout>
+</android.support.v7.widget.CardView>
+
+        </LinearLayout>
+</LinearLayout>
+
+    </ScrollView>

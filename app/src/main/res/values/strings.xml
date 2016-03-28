@@ -1,0 +1,167 @@
+<resources>
+
+    <string name="app_name" translatable="false">ReportIt</string>
+    <string name="settings">Settings</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit1">Exit app</string>
+    <string name="exit2">Are you sure you want to leave?</string>
+    <string name="skip">You skipped the introduction</string>
+    <string name="close">Close</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="app_small_desc">Writing your report in just few minutes</string>
+    <string name="changelog">Changelog</string>
+    <string name="licenses">Other libraries licenses</string>
+    <string name="mywebsite">Website</string>
+    <string name="mygoogleplus">Google+</string>
+    <string name="myinsta">Instagram</string>
+    <string name="myfb">Facebook</string>
+    <string name="mylinked">LinkedIn</string>
+    <string name="myyoutube">Youtube channel</string>
+    <string name="mytwitter">Twitter</string>
+    <string name="credits">Credits</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="header">ReportIt</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_home">Home</string>
+    <string name="navigation_drawer_close">Close nav drawer</string>
+    <string name="navigation_drawer_open">Open nav drawer</string>
+    <string name="about">About</string>
+    <string name="drawer_recyclerview">All report\'s</string>
+    <string name="drawer_moreapps">More apps</string>
+    <string name="save_data">Please save your data before leave, otherwise it will be lost.</string>
+    <string name="friday">friday</string>
+    <string name="thursday">thursday</string>
+    <string name="wednesday">wednesday</string>
+    <string name="tuesday">tuesday</string>
+    <string name="monday">monday</string>
+    <string name="instructor">"Instructor: "</string>
+    <string name="trainee">"Trainee: "</string>
+    <string name="example_work">example \'Work\'</string>
+    <string name="add_report">Add new report</string>
+    <string name="add_reportdesc">Simple type in the name of your report</string>
+    <string name="add">Add</string>
+    <string name="week">" week "</string>
+    <string name="holidays">holidays</string>
+    <string name="schoolweek">school week</string>
+    <string name="workweek">Work week</string>
+    <string name="start_date">Start day</string>
+    <string name="end_date">End day</string>
+    <string name="report_nr">Report Nr.</string>
+    <string name="error_file_exists">This file name is already used</string>
+    <string name="signatures">Signatures</string>
+    <string name="trainee_only">Trainee</string>
+    <string name="instructor_only">Instructor</string>
+    <string name="desputy">Disputy</string>
+    <string name="notes">Notes</string>
+    <string name="friday_short">Fri.</string>
+    <string name="thursday_short">Thurs.</string>
+    <string name="wednesday_short">Wed.</string>
+    <string name="tuesday_short">Tues.</string>
+    <string name="monday_short">Mon.</string>
+    <string name="hours">Hours</string>
+    <string name="day">Day</string>
+    <string name="reportNR">Report Nr.:</string>
+    <string name="firmName">Firm:</string>
+    <string name="instructorName">Instructor name:</string>
+    <string name="weekFrom">Week from</string>
+    <string name="weekTo">to</string>
+
+
+
+    <string name="pdf_extension" translatable="false">.pdf</string>
+
+    <string name="statistic">Some statistic</string>
+    <string name="supportDev">Support development</string>
+    <string name="created_part1">"You have created "</string>
+    <string name="created_part2">" reports"</string>
+    <string name="warning_readpermission">This app need to write to your external storage. It will exit now. Please grant permission.</string>
+    <string name="author">Author</string>
+
+
+    <string name="start_listening">Start Listening</string>
+    <string name="status_initializing">Initializing…</string>
+    <string name="status_ready">Ready to authenticate!</string>
+    <string name="status_authenticated">Authentication successful!</string>
+    <string name="status_error" translatable="false">Error: %1$s</string>
+    <string name="open_security_settings">Open Security Settings</string>
+    <string name="status_listening">Listening for a fingerprint…</string>
+    <string name="status_listening_new">Listening for a fingerprint (new)…</string>
+    <string name="stop_listening">Stop listening</string>
+    <string name="use_dialog">Use Dialog</string>
+    <string name="dialog_authenticated">Authentication successful!</string>
+    <string name="dialog_cancelled">Authentication failed.</string>
+    <string name="set_password">Set password</string>
+    <string name="set_password_desc">Please type in the password as alternative for your fingerprint</string>
+    <string name="global">Global</string>
+    <string name="notification">Notification</string>
+    <string name="security">Security</string>
+    <string name="edit_settings_desc">Press \"EDIT\" if you want to correct the data below</string>
+    <string name="hint_firm_name">Write down here the name of your firm</string>
+    <string name="hint_boss_name">Write done here the name of your boss</string>
+    <string name="switch_daily_noti">Get daily notification</string>
+    <string name="choose_time">Choose notification time</string>
+    <string name="fingerprint_switch">Use passcode/fingerprint(if supported)</string>
+    <string name="set_password_button">Set password as alternative</string>
+    <string name="theme">Theme</string>
+    <string name="night_theme">Use night theme</string>
+    <string name="edit">Edit</string>
+    <string name="buy_1x">Small donation</string>
+    <string name="buy_3x">Big donation</string>
+    <string name="buy_5x">Premium donation</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="filename">Filename</string>
+    <string name="week_type">Type of week</string>
+    <string name="desc_sum_up">Sum up your daily task\'s</string>
+    <string name="report">Report</string>
+    <string name="saved_report">Saved to /ReportIt/Reports/...</string>
+    <string name="saved_report_pdf">Saved to /ReportIt/Exported PDF\'s</string>
+    <string name="saved_report_rtf">Saved to /ReportIt/Exported RTF\'s</string>
+    <string name="saved_report_odt">Saved to /ReportIt/Exported ODT\'s</string>
+    <string name="open">Open</string>
+    <string name="buy1x_thanks">Thanks for 1 coffee! 😊</string>
+    <string name="buy3x_thanks">Thanks for lunch! 😍</string>
+    <string name="buy5x_thanks">Thank you my premium user! ❤</string>
+    <string name="buy_restored_succes">Purchases restored 😊</string>
+    <string name="thanks_donation">Thanks for donation! 😊</string>
+    <string name="error_donation">Ooooops, something went wrong 😐</string>
+    <string name="current_date">"Current date: "</string>
+    <string name="of">" of "</string>
+    <string name="space">" "</string>
+    <string name="first_started">"ReportIt first started on "</string>
+    <string name="times">" times"</string>
+    <string name="was_used">"ReportIt was used "</string>
+    <string name="show_love">Show some love on\nyour social networks</string>
+    <string name="facebook">Facebook</string>
+    <string name="googleplus">Google+</string>
+    <string name="twitter">Twitter</string>
+    <string name="choose_ringtone">Choose ringtone sound</string>
+    <string name="wrap_up">Time to wrap up</string>
+    <string name="wrap_up_desc">Press here to wrap up your work day</string>
+    <string name="select_notification_tone">Select Notification sound</string>
+    <string name="firm_name">"Name of firm: "</string>
+    <string name="instructor_name">"Instructor name: "</string>
+    <string name="intro_create_new">Create new report</string>
+    <string name="intro_create_new2">Simple add new report with \'add\' button.</string>
+    <string name="intro_sumup">Sum up your tasks</string>
+    <string name="intro_sumup2">Write down all the tasks you did</string>
+    <string name="intro_export">Export to pdf</string>
+    <string name="intro_export2">Easy export your report to sd card in pdf format</string>
+    <string name="intro_welcome">Welcome to ReportIt, let us start with small introduction</string>
+    <string name="odt_extension" translatable="false">.odt</string>
+    <string name="rtf_extension" translatable="false">.rtf</string>
+    <string name="share_email">Share via email</string>
+    <string name="save_as_pdf">Save as PDF</string>
+    <string name="save_as_rtf">Save as RTF</string>
+    <string name="share_report">Share your report, choose any of this methods</string>
+    <string name="send_email">Send mail...</string>
+    <string name="report_name">"Report: "</string>
+    <string name="create">Create PDF</string>
+    <string name="error_create_pdf">Error, create PDF file first</string>
+    <string name="add_report_widget">Add new report</string>
+    <string name="open_last_report">Open last edited report</string>
+    <string name="shortcuts">Shortcuts</string>
+    <string name="license">App license</string>
+
+</resources>

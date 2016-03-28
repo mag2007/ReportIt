@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/settings_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/CardView"
+                            app:cardBackgroundColor="@color/cardColor"
+                            >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/global"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="22sp"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:layout_marginLeft="@dimen/content_inset_half" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="@string/edit_settings_desc"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/content_inset"
+                            android:layout_marginRight="@dimen/content_inset" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/userName"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/content_inset"
+                            android:layout_marginTop="@dimen/content_inset" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:id="@+id/userBossName"
+                            android:textSize="16sp"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:layout_marginLeft="@dimen/content_inset" />
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:id="@+id/inuserName"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:inputType="textCapWords|textPersonName|textAutoComplete|textAutoCorrect"
+                            android:lines="1"
+                            android:hint="@string/hint_firm_name"
+                            android:layout_marginLeft="@dimen/content_inset"
+                            android:layout_marginRight="@dimen/content_inset" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                            android:id="@+id/inuserBossName"
+                            android:inputType="textCapWords|textAutoComplete|textPersonName|textAutoCorrect"
+                            android:lines="1"
+                            android:hint="@string/hint_boss_name"
+                            android:layout_marginRight="@dimen/content_inset"
+                            android:layout_marginLeft="@dimen/content_inset" />
+
+                        <Button
+                            android:id="@+id/bSave"
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:clickable="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:tag="tint_selector_lighter|accent_color,text_size|body"
+                            android:text="@string/save"
+                            android:layout_gravity="right"
+                            android:textStyle="bold"
+                            android:layout_marginRight="@dimen/content_inset" />
+                        </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="16dp"
+                            android:background="@color/background"
+                            />
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/CardView"
+                            app:cardBackgroundColor="@color/cardColor"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/notification"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="22sp"
+                            android:id="@+id/textView7"
+                            android:layout_marginLeft="@dimen/content_inset_half" />
+
+                        <Switch
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/switch_daily_noti"
+                            android:id="@+id/sNoti"
+                            android:textColor="@color/switchTextColor"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:checked="false"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:layout_marginLeft="@dimen/content_inset"
+                            android:layout_marginRight="@dimen/content_inset" />
+
+                                <Button
+                                    android:id="@+id/bringtonePick"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="48dp"
+                                    android:layout_marginTop="@dimen/content_inset"
+                                    android:clickable="true"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    style="?android:attr/borderlessButtonStyle"
+                                    android:text="@string/choose_ringtone"
+                                    android:textStyle="bold" />
+                        <Button
+                            android:id="@+id/btimePick"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:clickable="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:text="@string/choose_time"
+                            android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/background"
+            />
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/CardView"
+                            app:cardBackgroundColor="@color/cardColor"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/security"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="22sp"
+                            android:id="@+id/textView"
+                            android:layout_marginLeft="@dimen/content_inset_half" />
+
+                        <Switch
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fingerprint_switch"
+                            android:textColor="@color/switchTextColor"
+                            android:id="@+id/sfingerprint_activ"
+                            android:clickable="true"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:checked="false"
+                            android:layout_marginRight="@dimen/content_inset"
+                            android:layout_marginLeft="@dimen/content_inset" />
+
+
+
+                        <Button
+                            android:id="@+id/bsetpassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:clickable="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:tag="tint_selector_lighter|accent_color,text_size|body"
+                            android:text="@string/set_password_button"
+                            android:textStyle="bold" />
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:background="@color/background"
+                    />
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/CardView"
+                            app:cardBackgroundColor="@color/cardColor"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/theme"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="22sp"
+                            android:id="@+id/textView9"
+                            android:layout_marginLeft="@dimen/content_inset_half" />
+
+                        <Switch
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/night_theme"
+                            android:textColor="@color/switchTextColor"
+                            android:id="@+id/sdarkTheme"
+                            android:clickable="true"
+                            android:layout_marginTop="@dimen/content_inset"
+                            android:layout_marginLeft="@dimen/content_inset"
+                            android:layout_marginRight="@dimen/content_inset" />
+
+
+                        </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+

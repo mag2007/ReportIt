@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="An extra 'THANK YOU' to these people\n"
+        android:id="@+id/textView2"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- thanks to all who helped me in coding and designing this app\n- thanks to neat google plus communities\n- thanks to kindly stackoverflow community\n- thanks to Aidan Follestad for his awesome material library's"
+        android:id="@+id/textView1"
+        android:textSize="10dp" />
+
+
+</LinearLayout>

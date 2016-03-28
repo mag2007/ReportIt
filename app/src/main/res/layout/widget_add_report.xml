@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin"
+    android:background="@color/widget_background">
+
+    <ImageButton
+        android:id="@+id/openApp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="0dp"
+        android:text="@string/app_name"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/openLastReport"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_arrow_forward_red_500_24dp"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/add_report_button"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawablePadding="16dp"
+        android:src="@drawable/ic_add_red_500_24dp"
+        android:background="@android:color/transparent"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView"
+            app:cardBackgroundColor="@color/cardColor"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/statistic"
+            android:id="@+id/stateHead"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="25sp"
+            android:layout_marginTop="@dimen/content_inset"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp"
+            android:id="@+id/reportsCompletely"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="REPORTS" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateCurrent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="CURRENTDDATE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp"
+                android:id="@+id/appUsedTimes"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="APPUSED" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp"
+                android:id="@+id/appFirstStarted"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="APPFIRSTSTARTED" />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/background"
+            />
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView"
+            app:cardBackgroundColor="@color/cardColor"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/supportDev"
+                    android:id="@+id/donateDesc"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="25sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buy_1x"
+                    android:onClick="buy1coffee"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/ic_attach_money_red_500_24dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/bdonate1"
+                    android:textSize="18sp"
+                    android:gravity="fill_vertical"
+                    android:drawablePadding="16dp"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buy_3x"
+                    android:onClick="buy1lunch"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/ic_attach_money_red_500_24dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/bdonate3"
+                    android:textSize="18sp"
+                    android:gravity="fill_vertical"
+                    android:drawablePadding="16dp"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buy_5x"
+                    android:onClick="buy5coffee"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/ic_attach_money_red_500_24dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/bdonate5"
+                    android:textSize="18sp"
+                    android:gravity="fill_vertical"
+                    android:drawablePadding="16dp"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/restore_purchases"
+                    android:onClick="ownedPurchases"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:drawableLeft="@drawable/ic_info_outline_red_500_24dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/ownedPurchases"
+                    android:textSize="18sp"
+                    android:gravity="fill_vertical"
+                    android:drawablePadding="16dp"
+                    android:clickable="true"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/background"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView"
+            app:cardBackgroundColor="@color/cardColor"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shortcuts"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="25sp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/blastSavedOpen"
+                    android:text="@string/open_last_report"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:textSize="18sp"
+                    android:gravity="fill_vertical"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:drawableLeft="@drawable/ic_arrow_forward_red_500_24dp"
+                    android:drawablePadding="16dp"
+                    />
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/baddButton"
+                    android:text="@string/add_report"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:textSize="18sp"
+                    android:gravity="fill_vertical"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:drawableLeft="@drawable/ic_add_red_500_24dp"
+                    android:drawablePadding="16dp"
+                    />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@color/background"
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
